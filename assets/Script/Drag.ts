@@ -29,14 +29,14 @@ export class DragConfig {
    * 节点最终移动到的位置的碰撞区
    */
   @property(cc.Node)
-  destinationNode: cc.Node;
+  destinationNode: cc.Node = null;
 }
 
 /**
  * 拖拽组件
  */
 @ccclass
-export default class Drag extends cc.Component {
+export class Drag extends cc.Component {
   /**
    * 终点坐标、碰撞区域配置
    */

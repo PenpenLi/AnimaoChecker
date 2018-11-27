@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@types/node": "^10.5.8",
-    "ts-promise": "2.1.0"
+    "ts-promise": "2.1.0",
+    "tslint": "^5.9.1"
   }
 }
